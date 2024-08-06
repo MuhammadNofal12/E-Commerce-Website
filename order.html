@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./order.css" />
+  </head>
+  <body>
+    <!-- logo+navbar -->
+    <div class="navbar">
+      <div
+        id="logo-div"
+        class="bg-black flex items-center justify-between pr-4 pt-1 pb-1"
+      >
+        <div class="logo1">
+          <img src="./assets/logo.jpeg" alt="logo" class="logo" />
+        </div>
+        <button type="button" class="bg-green-500 text-white py-2 px-4 ml-auto">
+          Buy now
+        </button>
+      </div>
+      <div class="imgh">
+        <div class="img1"><img src="./assets/footer1.jpg" alt="footer" /></div>
+
+        <ul>
+          <li><a href="home.html" target="_blank">HOME</a></li>
+          <li>
+            SHOP
+            <div class="dropdown">
+              <ul>
+                <li><a href="shoplist.html" target="_blank">ShopList V1</a></li>
+                <li>Team</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            BLOG
+            <div class="dropdown">
+              <ul>
+                <li><a href="blog.html" target="_blank">BLOG V1</a></li>
+                <li>Android</li>
+                <li>BlockChain</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            PAGES
+            <div class="dropdown">
+              <ul>
+                <li><a href="blog.html" target="_blank">My Account</a></li>
+                <li>Login/Register</li>
+                <li>Store locator</li>
+                <li>LookBook</li>
+                <li>Terms</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html" target="_blank">ABOUT</a></li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+    </div>
+    <!-- //section2 -->
+    <div class="container">
+      <div class="sidebar">
+        <ul>
+          <li><a href="#">DASHBOARD</a></li>
+          <li class="active"><a href="#">ORDERS</a></li>
+          <li><a href="#">ADDRESSES</a></li>
+          <li><a href="#">ACCOUNT DETAILS</a></li>
+          <li><a href="#">WISHLIST</a></li>
+          <li><a href="#">LOGOUT</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>ORDERS</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ORDER</th>
+              <th>DATE</th>
+              <th>STATUS</th>
+              <th>TOTAL</th>
+              <th>ACTIONS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#">#2416</a></td>
+              <td>October 1, 2023</td>
+              <td>On hold</td>
+              <td>$1,200.65 for 3 items</td>
+              <td><a href="#" class="view-btn">VIEW</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">#2417</a></td>
+              <td>October 2, 2023</td>
+              <td>On hold</td>
+              <td>$1,200.65 for 3 items</td>
+              <td><a href="#" class="view-btn">VIEW</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">#2418</a></td>
+              <td>October 3, 2023</td>
+              <td>On hold</td>
+              <td>$1,200.65 for 3 items</td>
+              <td><a href="#" class="view-btn">VIEW</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">#2419</a></td>
+              <td>October 4, 2023</td>
+              <td>On hold</td>
+              <td>$1,200.65 for 3 items</td>
+              <td><a href="#" class="view-btn">VIEW</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

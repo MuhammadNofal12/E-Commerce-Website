@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./account.css" />
+  </head>
+  <body>
+    <!-- logo+navbar -->
+    <div class="navbar">
+      <div
+        id="logo-div"
+        class="bg-black flex items-center justify-between pr-4 pt-1 pb-1"
+      >
+        <div class="logo1">
+          <img src="./assets/logo.jpeg" alt="logo" class="logo" />
+        </div>
+        <button type="button" class="bg-green-500 text-white py-2 px-4 ml-auto">
+          Buy now
+        </button>
+      </div>
+      <div class="imgh">
+        <div class="img1"><img src="./assets/footer1.jpg" alt="footer" /></div>
+
+        <ul>
+          <li><a href="home.html" target="_blank">HOME</a></li>
+          <li>
+            SHOP
+            <div class="dropdown">
+              <ul>
+                <li><a href="shoplist.html" target="_blank">ShopList V1</a></li>
+                <li>Team</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            BLOG
+            <div class="dropdown">
+              <ul>
+                <li><a href="blog.html" target="_blank">BLOG V1</a></li>
+                <li>Android</li>
+                <li>BlockChain</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            PAGES
+            <div class="dropdown">
+              <ul>
+                <li><a href="blog.html" target="_blank">My Account</a></li>
+                <li>Login/Register</li>
+                <li>Store locator</li>
+                <li>LookBook</li>
+                <li>Terms</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html" target="_blank">ABOUT</a></li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+    </div>
+    <!-- account pg -->
+    <div class="container">
+      <div class="sidebar">
+        <ul>
+          <li class="active"><a href="#">DASHBOARD</a></li>
+          <li><a href="order.html" target="_blank">ORDERS</a></li>
+          <li><a href="#">ADDRESSES</a></li>
+          <li><a href="#">ACCOUNT DETAILS</a></li>
+          <li><a href="#">WISHLIST</a></li>
+          <li><a href="#">LOGOUT</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1 class="font-extrabold text-2">MY ACCOUNT</h1>
+        <p>
+          Hello <strong>alitfn58</strong> (not <strong>alitfn58</strong>?
+          <a href="#">Log out</a>)
+        </p>
+        <p>
+          From your account dashboard you can view your
+          <a href="#">recent orders</a>, manage your
+          <a href="#">shipping and billing addresses</a>, and
+          <a href="#">edit your password and account details</a>.
+        </p>
+      </div>
+    </div>
+    <!-- footer html -->
+    <footer class="footer">
+      <div class="column">
+        <h3 class="ftr-img"><img src="./assets/footer1.jpg" alt="footer" /></h3>
+        <p>1418 River Drive, Suite 35 Cottonhall, CA 9622<br />United States</p>
+        <p>sale@uomo.com<br />+1 246-3450695</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+      <div class="column">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Shop All</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Find a Store</a></li>
+          <li><a href="#">Legal & Privacy</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Gift Card</a></li>
+        </ul>
+      </div>
+      <div class="column subscribe">
+        <h3>Subscribe</h3>
+        <p>
+          Be the first to get the latest news about trends, promotions, and much
+          more!
+        </p>
+        <form>
+          <input type="email" placeholder="Your email address" />
+          <input type="submit" value="Submit" />
+        </form>
+        <div class="payments">
+          <img src="./assets/img33.jpg" alt="Payment Methods" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

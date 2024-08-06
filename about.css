@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar css */
+ul {
+  list-style-type: none;
+  background-color: white;
+  color: black;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+ul li:hover {
+  background-color: green;
+  color: white;
+}
+.dropdown {
+  display: none;
+}
+ul li:hover .dropdown {
+  display: block;
+  position: absolute;
+  margin-left: -0.29cm;
+  margin-top: 0.27cm;
+}
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+}
+.dropdown ul li {
+  display: block;
+}
+.logo1 {
+  background-color: transparent;
+}
+/* //---------------------------navbar css end------------------------------ */
+.main-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.imgh {
+  display: flex;
+}
+.img1 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.about-section {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.story-section {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+}
+
+.story-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.story-paragraph {
+  margin-bottom: 10px;
+}
+
+.story-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: start;
+}
+
+.mission-vision {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.mission,
+.vision {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.mission-title,
+.vision-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.mission-paragraph,
+.vision-paragraph {
+  font-size: 14px;
+}
+
+.company-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.company-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.company-info {
+  display: grid;
+  gap: 10px;
+  text-align: left;
+}
+
+.company-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.company-paragraph {
+  font-size: 14px;
+}
+/* footer +uomo */
+/* @UOMO css */
+.uomo-wrapper {
+  text-align: center;
+}
+
+.uomo-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.uomo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px 100px;
+}
+
+.uomo-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.uomo-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.uomo-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uomo-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.uomo-info-title {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.uomo-info-text {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+/* footer css */
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.footer .column {
+  flex: 1;
+  margin: 10px;
+  min-width: 150px;
+}
+.footer .column h3 {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: normal;
+}
+.footer .column ul {
+  list-style: none;
+  padding: 0;
+  /* display: block; */
+}
+.footer .column ul li {
+  margin-bottom: 10px;
+  display: block;
+}
+.footer .column ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+.footer .subscribe input[type="email"] {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.footer .subscribe input[type="submit"] {
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.footer .social-icons a {
+  margin-right: 10px;
+  color: #000;
+  text-decoration: none;
+}
+.footer .social-icons a i {
+  font-size: 20px;
+}
+.footer .bottom {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+}
+.footer .payments img {
+  width: 200px; /* Adjust the width as needed */
+}
+.ftr-img {
+  padding-left: 80px;
+}
+
+.bottom {
+  display: flex;
+}
+
+/* Responsive adjustments */
+
+/* Small screens (mobile devices) */
+@media (max-width: 600px) {
+  .uomo-gallery {
+    padding: 10px;
+  }
+
+  .uomo-image {
+    width: calc(50% - 10px);
+    height: auto;
+  }
+
+  .uomo-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .column {
+    margin: 10px 0;
+  }
+
+  .footer .column ul {
+    text-align: center;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .uomo-gallery {
+    padding: 20px 50px;
+  }
+
+  .uomo-image {
+    width: calc(33.33% - 10px);
+    height: auto;
+  }
+
+  .uomo-info {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .column {
+    margin: 10px 0;
+  }
+
+  .footer .column ul {
+    text-align: center;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1025px) {
+  .uomo-gallery {
+    padding: 30px 100px;
+  }
+
+  .uomo-image {
+    width: calc(16.66% - 10px); /* 6 images per row */
+    height: 150px;
+  }
+
+  .uomo-info {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer .column {
+    margin: 10px;
+  }
+
+  .footer .column ul {
+    text-align: left;
+  }
+}

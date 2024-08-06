@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+  <body class="font-sans">
+    <div class="navbar">
+      <div
+        id="logo-div"
+        class="bg-black flex items-center justify-between pr-4 pt-1 pb-1"
+      >
+        <div class="logo1">
+          <img src="./assets/logo.jpeg" alt="logo" class="logo" />
+        </div>
+        <button type="button" class="bg-green-500 text-white py-2 px-4 ml-auto">
+          Buy now
+        </button>
+      </div>
+      <div class="imgh">
+        <div class="img1"><img src="./assets/footer1.jpg" alt="footer" /></div>
+        <ul>
+          <li>HOME</li>
+          <li>
+            SHOP
+            <div class="dropdown">
+              <ul>
+                <li><a href="shoplist.html" target="_blank">ShopList V1</a></li>
+                <li>Team</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            BLOG
+            <div class="dropdown">
+              <ul>
+                <li><a href="blog.html" target="_blank">BLOG V1</a></li>
+                <li>Android</li>
+                <li>BlockChain</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            PAGES
+            <div class="dropdown">
+              <ul>
+                <li><a href="account.html" target="_blank">My Account</a></li>
+                <li>Login/Register</li>
+                <li>Store locator</li>
+                <li>LookBook</li>
+                <li>Terms</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html" target="_blank">ABOUT</a></li>
+          <li><a href="contact.html" target="_blank">Contact US</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sec1">
+      <div class="background-div flex items-center justify-between">
+        <div class="icon-container">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+
+        <div class="text-area">
+          <div>
+            <h6 class="text-red-500 font-light text-lg">New Trend</h6>
+            <h2 class="text-black font-bold text-5xl">Summer Sale Stylish</h2>
+            <h2 class="text-black font-bold text-6xl">WOMENS</h2>
+            <h2>
+              <a
+                href="https://uomo-nextjs-ecommerce.vercel.app/shop-1"
+                class="font-light underline"
+                >DISCOVER MORE</a
+              >
+            </h2>
+          </div>
+        </div>
+        <img
+          src="./assets/img2.jpg"
+          alt="Foreground Image"
+          class="w-1/4 h-auto"
+        />
+      </div>
+    </div>
+    <div class="container1">
+      <div class="flex h-screen p-4 gap-4">
+        <!-- Left Image -->
+        <div class="flex flex-col w-1/2 gap-4">
+          <div class="grid-item flex-1 h-96 bg-gray-200">
+            <img src="./assets/img3.jpg" alt="Women Collection" />
+            <div class="content">
+              <h6 class="text-sm">HOT LIST</h6>
+              <h2 class="text-2xl font-bold">WOMEN COLLECTION</h2>
+              <a href="#" class="underline">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- Right Side Images -->
+        <div class="flex flex-col w-1/2 gap-4">
+          <div class="grid-item flex-1 bg-gray-200">
+            <img src="./assets/img4.jpg" alt="Men Collection" />
+            <div class="content">
+              <h6 class="text-sm">HOT LIST</h6>
+              <h2 class="text-2xl font-bold">MEN COLLECTION</h2>
+              <a href="#" class="underline">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="flex flex-1 gap-4">
+            <div class="grid-item w-1/2 bg-gray-200">
+              <img src="./assets/img5.jpg" alt="Kids Collection" />
+              <div class="content">
+                <h6 class="text-sm">HOT LIST</h6>
+                <h2 class="text-2xl font-bold">KIDS COLLECTION</h2>
+                <a href="#" class="underline">SHOP NOW</a>
+              </div>
+            </div>
+            <div class="grid-item w-1/2 bg-pink-200">
+              <!-- <img
+              src="https://via.placeholder.com/300x200 bg-pink-400-200"
+              alt="E-Gift Cards"
+            /> -->
+              <div class="content">
+                <h2 class="text-2xl font-bold">E-GIFT CARDS</h2>
+                <p>Surprise someone with the gift they really want.</p>
+                <a href="#" class="underline">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <h1>Our Trendy Products</h1>
+      <div class="tabs">
+        <span>All</span>
+        <span>New Arrivals</span>
+        <span>Best Seller</span>
+        <span>Top Rated</span>
+      </div>
+      <div class="product-grid">
+        <div class="product">
+          <img src="./assets/t-img6.jpg" alt="Cropped Faux Leather Jacket" />
+          <p class="category">Dresses</p>
+          <h2>Cropped Faux Leather Jacket</h2>
+          <p class="price">$29</p>
+          <p class="reviews">8k+ reviews</p>
+        </div>
+        <div class="product">
+          <img src="./assets/t-img7.jpg" alt="Calvin Shorts" />
+          <p class="category">Dresses</p>
+          <h2>Calvin Shorts</h2>
+          <p class="price">$62</p>
+          <p class="reviews">4k+ reviews</p>
+        </div>
+        <div class="product">
+          <img src="./assets/t-img8.jpg" alt="Kirby T-Shirt" />
+          <p class="category">Dresses</p>
+          <h2>Kirby T-Shirt</h2>
+          <p class="price">$17</p>
+          <p class="reviews">5k+ reviews</p>
+        </div>
+        <div class="product">
+          <img src="./assets/t-img9.jpg" alt="Cableknit Shawl" />
+          <p class="category">Dresses</p>
+          <h2>Cableknit Shawl</h2>
+          <p class="price">$99</p>
+          <p class="reviews">3k+ reviews</p>
+        </div>
+        <div class="product">
+          <img src="./assets/t-img10.jpg" alt="Cropped Faux Leather Jacket" />
+          <p class="category">Dresses</p>
+          <h2>Cropped Faux Leather Jacket</h2>
+          <p class="price">$29</p>
+          <p class="reviews">8k+ reviews</p>
+        </div>
+        <div class="product">
+          <img src="./assets/t-img11.jpg" alt="Calvin Shorts" />
+          <p class="category">Dresses</p>
+          <h2>Calvin Shorts</h2>
+          <p class="price">$62</p>
+          <p class="reviews">4k+ reviews</p>
+        </div>
+        <div class="product">
+          <img src="./assets/t-img12.jpg" alt="Kirby T-Shirt" />
+          <p class="category">Dresses</p>
+          <h2>Kirby T-Shirt</h2>
+          <p class="price">$17</p>
+          <p class="reviews">5k+ reviews</p>
+        </div>
+        <div class="product">
+          <img src="./assets/t-img13.jpg" alt="Cableknit Shawl" />
+          <p class="category">Dresses</p>
+          <h2>Cableknit Shawl</h2>
+          <p class="price">$99</p>
+          <p class="reviews">3k+ reviews</p>
+        </div>
+      </div>
+      <div class="ref1">
+        <bold
+          ><h3 class="d-link">
+            <a href="https://uomo-react-ecommerce.ibthemespro.com/shop-1"
+              >DISCOVER MORE</a
+            >
+          </h3>
+        </bold>
+      </div>
+    </div>
+    <section class="deal-of-the-week">
+      <div class="content2">
+        <div class="deal-section">
+          <h6 class="deal-label">DEAL OF THE WEEK</h6>
+        </div>
+        <h1 class="collection-title">SPRING COLLECTION</h1>
+        <a href="#" class="shop-now">SHOP NOW</a>
+        <div class="countdown">
+          <div class="time-unit">
+            <span class="time">148</span>
+            <span class="unit">DAYS</span>
+          </div>
+          <div class="time-unit">
+            <span class="time">12</span>
+            <span class="unit">HOURS</span>
+          </div>
+          <div class="time-unit">
+            <span class="time">13</span>
+            <span class="unit">MINS</span>
+          </div>
+          <div class="time-unit">
+            <span class="time">5</span>
+            <span class="unit">SEC</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="promo-section">
+      <div class="promo-box promo-box1">
+        <div class="overlay">
+          <p class="promo-price">STARTING AT $19</p>
+          <h2 class="promo-heading">Women's T-Shirts</h2>
+          <a href="#" class="promo-shop-now">SHOP NOW</a>
+        </div>
+      </div>
+      <div class="promo-box promo-box2">
+        <div class="overlay">
+          <p class="promo-price">STARTING AT $39</p>
+          <h2 class="promo-heading">Men's Sportswear</h2>
+          <a href="#" class="promo-shop-now">SHOP NOW</a>
+        </div>
+      </div>
+    </section>
+    <section class="limited-edition-section">
+      <h2 class="section-title">LIMITED EDITION</h2>
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slider-item">
+            <img src="./assets/img17.jpg" alt="Hub Accent Mirror" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Hub Accent Mirror</h3>
+            <p class="item-price">$17</p>
+          </div>
+          <div class="slider-item">
+            <img src="./assets/img18.jpg" alt="Hosking Blue Area Rug" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Hosking Blue Area Rug</h3>
+            <p class="item-price">$29</p>
+            <p class="item-reviews">8k+ reviews</p>
+          </div>
+          <div class="slider-item">
+            <img src="./assets/img19.jpg" alt="Hanneman Pouf" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Hanneman Pouf</h3>
+            <p class="item-price">$62</p>
+          </div>
+          <div class="slider-item">
+            <img src="./assets/img20.jpg" alt="Cushion Futon Slipcover" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Cushion Futon Slipcover</h3>
+            <p class="item-price">$62</p>
+          </div>
+          <!-- Duplicates for looping -->
+          <div class="slider-item">
+            <img src="./assets/img17.jpg" alt="Hub Accent Mirror" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Hub Accent Mirror</h3>
+            <p class="item-price">$17</p>
+          </div>
+          <div class="slider-item">
+            <img src="./assets/img18.jpg" alt="Hosking Blue Area Rug" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Hosking Blue Area Rug</h3>
+            <p class="item-price">$29</p>
+            <p class="item-reviews">8k+ reviews</p>
+          </div>
+          <div class="slider-item">
+            <img src="./assets/img19.jpg" alt="Hanneman Pouf" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Hanneman Pouf</h3>
+            <p class="item-price">$62</p>
+          </div>
+          <div class="slider-item">
+            <img src="./assets/img20.jpg" alt="Cushion Futon Slipcover" />
+            <p class="item-category">Dresses</p>
+            <h3 class="item-title">Cushion Futon Slipcover</h3>
+            <p class="item-price">$62</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="uomo-wrapper">
+      <h1 class="uomo-title">@UOMO</h1>
+      <div class="uomo-gallery">
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img21.jpg" alt="Image 21" class="uomo-image"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img22.jpg" alt="Image 2" class="uomo-image"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img23.jpg" alt="Image 3" class="uomo-image"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img24.jpg" alt="Image 4" class="uomo-image"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img25.jpg" alt="Image 5" class="uomo-image"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img26.jpg" alt="Image 6" class="uomo-image"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img27.jpg" alt="Image 7" class="uomo-image"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="./assets/img28.jpg" alt="Image 8" class="uomo-image"
+        /></a>
+        <img src="./assets/img29.jpg" alt="Image 9" class="uomo-image" />
+        <img src="./assets/img30.jpg" alt="Image 10" class="uomo-image" />
+        <img src="./assets/img31.jpg" alt="Image 11" class="uomo-image" />
+        <img src="./assets/img32.jpg" alt="Image 12" class="uomo-image" />
+      </div>
+      <div class="uomo-info">
+        <div class="uomo-info-item">
+          <i class="fas fa-shipping-fast fa-2x"></i>
+          <h3 class="uomo-info-title">FAST AND FREE DELIVERY</h3>
+          <p class="uomo-info-text">Free delivery for all orders over $140</p>
+        </div>
+        <div class="uomo-info-item">
+          <i class="fas fa-headphones-alt fa-2x"></i>
+          <h3 class="uomo-info-title">24/7 CUSTOMER SUPPORT</h3>
+          <p class="uomo-info-text">Friendly 24/7 customer support</p>
+        </div>
+        <div class="uomo-info-item">
+          <i class="fas fa-shield-alt fa-2x"></i>
+          <h3 class="uomo-info-title">MONEY BACK GUARANTEE</h3>
+          <p class="uomo-info-text">We return money within 30 days</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer css -->
+    <footer class="footer">
+      <div class="column">
+        <h3 class="ftr-img"><img src="./assets/footer1.jpg" alt="footer" /></h3>
+        <p>1418 River Drive, Suite 35 Cottonhall, CA 9622<br />United States</p>
+        <p>sale@uomo.com<br />+1 246-3450695</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+      <div class="column">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Shop All</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Find a Store</a></li>
+          <li><a href="#">Legal & Privacy</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Gift Card</a></li>
+        </ul>
+      </div>
+      <div class="column subscribe">
+        <h3>Subscribe</h3>
+        <p>
+          Be the first to get the latest news about trends, promotions, and much
+          more!
+        </p>
+        <form>
+          <input type="email" placeholder="Your email address" />
+          <input type="submit" value="Submit" />
+        </form>
+        <div class="payments">
+          <img src="./assets/img33.jpg" alt="Payment Methods" />
+        </div>
+      </div>
+    </footer>
+    <div class="bottom">
+      &copy; 2024 Uomo Language: United Kingdom | English Currency: $ USD
+    </div>
+  </body>
+</html>
