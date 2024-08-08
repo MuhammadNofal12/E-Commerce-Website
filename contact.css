@@ -139,7 +139,7 @@ ul li:hover .dropdown {
   }
   .footer .column {
     margin: 10px 0;
-    min-width: 100%;
+    /* min-width: 100%; */
   }
   .store-loc {
     flex-direction: column;

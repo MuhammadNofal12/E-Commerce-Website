@@ -94,7 +94,7 @@ ul li:hover .dropdown {
 .footer .column {
   flex: 1;
   margin: 10px;
-  min-width: 150px;
+  /* min-width: 150px; */
 }
 .footer .column h3 {
   margin-bottom: 15px;
@@ -139,14 +139,12 @@ ul li:hover .dropdown {
 }
 .footer .bottom {
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
   padding-top: 20px;
   border-top: 1px solid #ccc;
   font-size: 14px;
 }
-.footer .payments img {
-  width: 200px; /* Adjust the width as needed */
-}
+
 .ftr-img {
   padding-left: 80px;
 }
@@ -167,7 +165,7 @@ ul li:hover .dropdown {
     text-align: center;
   }
   .sidebar {
-    width: 100%;
+    /* width: 100%; */
     margin-right: 0;
     padding-right: 0;
   }
@@ -202,7 +200,7 @@ ul li:hover .dropdown {
     text-align: center;
   }
   .sidebar {
-    width: 100%;
+    /* width: 100%; */
     margin-right: 0;
     padding-right: 0;
   }
@@ -237,7 +235,7 @@ ul li:hover .dropdown {
     text-align: center;
   }
   .sidebar {
-    width: 100%;
+    /* width: 100%; */
     margin-right: 0;
     padding-right: 0;
   }
@@ -272,7 +270,7 @@ ul li:hover .dropdown {
     text-align: center;
   }
   .sidebar {
-    width: 100%;
+    /* width: 100%; */
     margin-right: 0;
     padding-right: 0;
   }
@@ -307,7 +305,7 @@ ul li:hover .dropdown {
     text-align: left;
   }
   .sidebar {
-    width: 125px;
+    /* width: 125px; */
     margin-right: 20px;
     padding-right: 130px;
   }
